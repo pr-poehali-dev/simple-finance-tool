@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Причины
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Детальный разбор роста затрат</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Новые нормативы",
+              description: "Требования ОСАГО, тахографы, системы мониторинга ГЛОНАСС и экологические классы",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Рост зарплат водителей",
+              description: "Дефицит квалифицированных кадров привёл к повышению тарифных ставок на 25–30%",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Инфляция запчастей",
+              description: "Удорожание импортных комплектующих и оригинальных деталей из-за курсовой разницы",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Дорожные сборы",
+              description: "Увеличение тарифов «Платон», рост стоимости акцизов и транспортного налога",
               direction: "bottom",
             },
           ].map((service, i) => (
