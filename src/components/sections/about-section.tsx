@@ -23,7 +23,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
                 <br />
                 компании
                 <br />
-                <span className="text-foreground/40">ТрансЛогистика</span>
+                <span className="text-foreground/40">ИП Рябухин Ю.К.</span>
               </h2>
             </div>
 
